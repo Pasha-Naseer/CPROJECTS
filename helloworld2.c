@@ -30,7 +30,7 @@ int main()
     float z = 15.5;
     char ch = 'a';
     printf("\ne=%d, z=%f, ch=%c", e, z, ch);
-    printf("\naddress of e is: %p", &x);
+    printf("\naddress of e is: %p", &e);
     
     char sentence[] = "Here is our sales data for this month:";
     printf("\n%s\n\t\"%d%% profitable\"", sentence, e);
